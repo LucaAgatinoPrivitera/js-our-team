@@ -13,8 +13,10 @@ function milestone2() {
         console.log("Nome in posizione " + i + " dell'array: ", `${ourTeamInside.Nome} ${ourTeamInside.Ruolo} ${ourTeamInside.foto}`); //Non è una stringa
 
 
-        myJSON = JSON.stringify(ourTeam); //Trasforma tutto ourTeam in stringa
-        console.log(myJSON); //Print dell'array in formato stringa
     }
+
+    myJSON = JSON.stringify(ourTeam.Nome); //Trasforma tutto ourTeam in stringa
+    console.log(myJSON); //Print dell'array in formato stringa
+    document.getElementById("ml2").innerText = myJSON;
 
 }

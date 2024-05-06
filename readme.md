@@ -23,4 +23,6 @@ Ragioniamo come sempre a step: prima la logica in italiano e poi traduciamo in c
 E ricordiamoci che console.log() è nostro amico!
 
 Da chiedere:
-    Non gira così
+    Non gira così. riga 6
+    Come concateno i vari elementi $? con +? o lascio lo spazio? posso usare backtick per chiudere e aprire subito dopo?
+    Da riga 18 non va
