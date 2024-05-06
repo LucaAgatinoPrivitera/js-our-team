@@ -12,13 +12,15 @@ function milestone2() {
         const ourTeamInside = ourTeam[i]; //Così sto creando una costante, che si basa sull'array, ad ogni ciclo si prende i valori di ogni oggetto, quindi da lì becca il nome e il ruolo.
         console.log("Nome in posizione " + i + " dell'array: ", `${ourTeamInside.Nome} ${ourTeamInside.Ruolo} ${ourTeamInside.foto}`); //Non è una stringa
 
-        let myJSON = JSON.stringify(ourTeamInside); //Trasforma tutto ourTeam in stringa
+        //let myJSON = JSON.stringify(ourTeamInside); //Trasforma tutto ourTeam in stringa
+        let myJSON = ourTeamInside.Nome.toString(); //Trasforma tutto ourTeam.Nome in stringa e restituisce il risultato desiderato.
         console.log(myJSON); //Print dell'array in formato stringa
         // document.getElementById("ml2").innerText += myJSON;
 
         array.push(myJSON)
         document.getElementById("ml2").innerText = array;
 
+        console.log(ourTeamInside.Nome.toString())
     }
 
 
