@@ -7,3 +7,7 @@ let ourTeam = [
     { Nome: "Barbara Ramos", Ruolo: "Graphic Designer", foto: "barbara-ramos-graphic-designer.jpg" },
 ]
 
+
+// con questo stampo tutto il primo oggetto
+console.log(ourTeam[0])
+
