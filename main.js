@@ -11,3 +11,4 @@ let ourTeam = [
 // con questo stampo tutto il primo oggetto
 console.log(ourTeam[0])
 
+let array = [];
