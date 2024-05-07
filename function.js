@@ -18,7 +18,7 @@ function milestone2() {
         // document.getElementById("ml2").innerText += myJSON;
 
         array.push(myJSON)
-        document.getElementById("ml2").innerText = array;
+        document.getElementById("ml2").innerText = array.join(", ");
 
         console.log(ourTeamInside.Nome.toString())
     }
